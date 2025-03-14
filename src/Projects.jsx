@@ -3,7 +3,6 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     const { loading, projects } = useFetchProjects();
-    console.log(loading, projects);
 
     if (loading) {
         return (
