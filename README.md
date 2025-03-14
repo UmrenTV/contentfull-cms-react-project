@@ -11,4 +11,4 @@
 
 ##
 
-Netlify deployed link: [Projects App](https://precious-muffin-1d17be.netlify.app/)
+For Netlify deployed link [click here.](https://zdravevski.netlify.app/)
