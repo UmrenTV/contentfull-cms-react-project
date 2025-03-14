@@ -17,10 +17,10 @@ export const useFetchProjects = () => {
                 content_type: "projects",
             });
             const projects = response.items.map((item) => {
-                const { title, url, image } = item.fields;
+                const { title, url, image, github } = item.fields;
                 const id = item.sys.id;
                 const img = image?.fields?.file?.url;
-                return { title, url, id, img };
+                return { title, url, id, img, github };
             });
             setProjects(projects);
             setLoading(false);
